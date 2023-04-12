@@ -1,0 +1,68 @@
+{"frames": [
+
+{
+	"filename": "mametchi1-11.png",
+	"frame": {"x":1,"y":166,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-12.png",
+	"frame": {"x":1,"y":1,"w":26,"h":31},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":26,"h":31},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-13.png",
+	"frame": {"x":1,"y":34,"w":26,"h":31},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":26,"h":31},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-14.png",
+	"frame": {"x":1,"y":67,"w":26,"h":31},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":26,"h":31},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-15.png",
+	"frame": {"x":1,"y":100,"w":26,"h":31},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":26,"h":31},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-16.png",
+	"frame": {"x":1,"y":133,"w":26,"h":31},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":26,"h":31},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-17.png",
+	"frame": {"x":1,"y":198,"w":26,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":26,"h":29},
+	"sourceSize": {"w":32,"h":32}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "mametchi-jumping-jacks.png",
+	"format": "RGBA8888",
+	"size": {"w":28,"h":228},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:86f8fa954bdf2ff238eb5bf7c7363784:ab33b8c4a45c96eb5bab2ca47ca5420c:41a97ca8df45a02ae1b13439bcc06a8e$"
+}
+}

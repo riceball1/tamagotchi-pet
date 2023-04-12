@@ -1,0 +1,44 @@
+{"frames": [
+
+{
+	"filename": "mametchi1-69.png",
+	"frame": {"x":1,"y":1,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-70.png",
+	"frame": {"x":1,"y":65,"w":26,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":26,"h":29},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-71.png",
+	"frame": {"x":1,"y":33,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-72.png",
+	"frame": {"x":1,"y":96,"w":26,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":26,"h":29},
+	"sourceSize": {"w":32,"h":32}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "mametchi-eating.png",
+	"format": "RGBA8888",
+	"size": {"w":28,"h":126},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a5c55d06bc280f84601b3c2cb28e5147:95cd3f14b854226230c16a0b431b7c79:e4664f307572d61e6f556f0ba469156c$"
+}
+}

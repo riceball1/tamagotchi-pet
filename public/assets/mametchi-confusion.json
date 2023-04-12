@@ -1,0 +1,92 @@
+{"frames": [
+
+{
+	"filename": "mametchi1-57.png",
+	"frame": {"x":1,"y":227,"w":26,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":26,"h":29},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-58.png",
+	"frame": {"x":1,"y":289,"w":26,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":4,"w":26,"h":28},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-59.png",
+	"frame": {"x":1,"y":1,"w":26,"h":31},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":26,"h":31},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-60.png",
+	"frame": {"x":1,"y":34,"w":26,"h":31},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":26,"h":31},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-61.png",
+	"frame": {"x":1,"y":67,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":2,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-62.png",
+	"frame": {"x":1,"y":99,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-63.png",
+	"frame": {"x":1,"y":131,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-64.png",
+	"frame": {"x":1,"y":163,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-65.png",
+	"frame": {"x":1,"y":195,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-66.png",
+	"frame": {"x":1,"y":258,"w":26,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":26,"h":29},
+	"sourceSize": {"w":32,"h":32}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "mametchi-confusion.png",
+	"format": "RGBA8888",
+	"size": {"w":28,"h":318},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4d4bd052ed8a28dd5105468ba2cd12e6:e5cb9ab0014153699b013139c4754aac:c4887c679726099eadb1626d9ebfe411$"
+}
+}

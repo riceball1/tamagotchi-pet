@@ -1,0 +1,28 @@
+{"frames": [
+
+{
+	"filename": "mametchi1-42.png",
+	"frame": {"x":1,"y":1,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-43.png",
+	"frame": {"x":29,"y":1,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "mametchi-embarassed.png",
+	"format": "RGBA8888",
+	"size": {"w":56,"h":32},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:139a2ae4ea3853ae35c2b1e6b88ba2f9:cbdcae74d69accd19cf22f607ee58ecf:154ef3f8bd0abbfc2a730d9a42009be7$"
+}
+}

@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "mametchi1-30.png",
+	"frame": {"x":1,"y":1,"w":26,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":26,"h":28},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-31.png",
+	"frame": {"x":1,"y":151,"w":26,"h":26},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":6,"w":26,"h":26},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-32.png",
+	"frame": {"x":1,"y":31,"w":26,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":4,"w":26,"h":28},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-33.png",
+	"frame": {"x":1,"y":61,"w":26,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":4,"w":26,"h":28},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-34.png",
+	"frame": {"x":1,"y":91,"w":26,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":4,"w":26,"h":28},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-35.png",
+	"frame": {"x":1,"y":121,"w":26,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":4,"w":26,"h":28},
+	"sourceSize": {"w":32,"h":32}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "mametchi-backturn.png",
+	"format": "RGBA8888",
+	"size": {"w":28,"h":178},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:dff96db56d39d28af62dd1eb30f2bc1e:d8a49106c442cf46e24d68aadb307475:f1e59aeb2d459ef9b0282c9817fd5178$"
+}
+}

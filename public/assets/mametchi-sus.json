@@ -1,0 +1,28 @@
+{"frames": [
+
+{
+	"filename": "mametchi1-48.png",
+	"frame": {"x":1,"y":1,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "mametchi1-49.png",
+	"frame": {"x":29,"y":1,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":26,"h":30},
+	"sourceSize": {"w":32,"h":32}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "mametchi-sus.png",
+	"format": "RGBA8888",
+	"size": {"w":56,"h":32},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0661564bcbbf0e7b9dc774d62747d687:b2d55e38311d489d8c1c698b8debf9e2:1930f1e44e3ba07a04e187f1d03341a3$"
+}
+}
