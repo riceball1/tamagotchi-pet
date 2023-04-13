@@ -27,7 +27,6 @@ export default class Game extends Phaser.Scene {
       "assets/mametchi-jumping-jacks.png",
       "assets/mametchi-jumping-jacks.json"
     );
-
   }
 
   create() {
@@ -49,5 +48,24 @@ export default class Game extends Phaser.Scene {
 
     const tamogtchi = new Tamagotchi(this, x, y);
     tamogtchi.create();
+
+    this.createInstructions();
   }
+
+createInstructions() {
+
+  // Create a text object
+const text = this.add.text(this.cameras.main.height - 175, 40, "", {
+  fontSize: "24px",
+  color: "#000",
+  align: "right",
+  wordWrap: { width: this.cameras.main.width - 50 }
+});
+text.setOrigin(1, 0); // Align the text to the top right corner
+
+// Set the text to display
+text.setText("Press space or tap to move mametchi");
+
+}
+
 }

@@ -39,6 +39,11 @@ class Tamagotchi extends Phaser.GameObjects.Sprite {
     this.scene.input.keyboard.on("keydown-SPACE", () => {
       sprite.play("jump", true);
     });
+
+    // Play animation on touch event
+    this.scene.input.on("pointerdown", () => {
+      sprite.play("jump", true);
+    });
   }
 }
 
