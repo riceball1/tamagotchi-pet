@@ -12,6 +12,9 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #212121; /* set background color to a dark gray */
   color: #ffffff; /* set text color to white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Apply dark theme styles */

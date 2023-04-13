@@ -3,6 +3,10 @@ import Cloud from "@/component/sprites/cloud/Cloud";
 import Tamagotchi from "@/component/sprites/tamagotchi/Tamagotchi";
 
 export default class Game extends Phaser.Scene {
+
+  private mametchi!: Phaser.GameObjects.Sprite;
+
+
   constructor() {
     super("Game");
   }
@@ -18,6 +22,13 @@ export default class Game extends Phaser.Scene {
       "cloud4",
       "cloud5",
     ]);
+
+     // Load sprite sheet
+     this.load.atlas(
+      "mametchi",
+      "assets/mametchi-jumping-jacks.png",
+      "assets/mametchi-jumping-jacks.json"
+    );
   }
 
   create() {
@@ -37,18 +48,18 @@ export default class Game extends Phaser.Scene {
     const cloud4 = new Cloud(this, 550, 250, "cloud4");
     const cloud5 = new Cloud(this, 100, 110, "cloud5");
 
-    // Load sprite sheet
-    this.load.atlas(
-      "mametchi",
-      "assets/mametchi-jumping-jacks.png",
-      "assets/mametchi-jumping-jacks.json"
-    );
-
     // Create sprite
-    const mametchi = this.add.sprite(100, 100, "mametchi", "mametchi1-11.png");
+    this.mametchi = this.add.sprite(x, y + 200, "mametchi", "mametchi1-11.png");
+    this.mametchi.setScale(4);
 
-    // Define animation
-    this.anims.create({
+    this.createJumpAnimation();
+   
+  }
+
+
+  createJumpAnimation() {
+     // Define animation
+     this.anims.create({
       key: "jump",
       frames: this.anims.generateFrameNames("mametchi", {
         prefix: "mametchi1-",
@@ -58,12 +69,12 @@ export default class Game extends Phaser.Scene {
         suffix: ".png",
       }),
       frameRate: 10,
-      repeat: -1,
     });
 
     // Play animation on space key press
     this.input.keyboard.on("keydown-SPACE", () => {
-      mametchi.play("jump", true);
+      this.mametchi.play("jump", true);
     });
+
   }
 }
