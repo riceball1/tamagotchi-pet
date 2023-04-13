@@ -1,6 +1,5 @@
 import Phaser from "phaser";
 import Cloud from "@/component/sprites/cloud/Cloud";
-import Tamagotchi from "@/component/sprites/tamagotchi/Tamagotchi";
 
 export default class Game extends Phaser.Scene {
 
