@@ -1,34 +1,45 @@
-import Phaser from 'phaser';
+import Phaser from "phaser";
 
 class Tamagotchi extends Phaser.GameObjects.Sprite {
-  // constructor(scene, x, y) {
-  //   super(scene, x, y, 'mametchi');
+  x: number;
+  y: number;
+  constructor(scene: any, x: number, y: number) {
+    super(scene, x, y, "mametchi");
 
-  //   // Set up animations
-  //   scene.anims.create({
-  //     key: 'position1',
-  //     frames: scene.anims.generateFrameNumbers('mametchi', { start: 0, end: 3 }),
-  //     frameRate: 10,
-  //     repeat: -1
-  //   });
+    this.x = x;
+    this.y = y;
+  }
 
-  //   scene.anims.create({
-  //     key: 'position2',
-  //     frames: scene.anims.generateFrameNumbers('mametchi', { start: 4, end: 7 }),
-  //     frameRate: 10,
-  //     repeat: -1
-  //   });
+  create() {
+    const tamo = this.scene.add.sprite(
+      this.x,
+      this.y + 235,
+      "mametchi",
+      "mametchi1-11.png"
+    );
+    tamo.setScale(3);
+    this.createJumpAnimation(tamo);
+  }
 
-  //   scene.anims.create({
-  //     key: 'position3',
-  //     frames: scene.anims.generateFrameNumbers('mametchi', { start: 8, end: 11 }),
-  //     frameRate: 10,
-  //     repeat: -1
-  //   });
+  createJumpAnimation(sprite: Phaser.GameObjects.Sprite) {
+    // Define animation
+    sprite.anims.create({
+      key: "jump",
+      frames: this.anims.generateFrameNames("mametchi", {
+        prefix: "mametchi1-",
+        start: 11,
+        end: 17,
+        zeroPad: 2,
+        suffix: ".png",
+      }),
+      frameRate: 10,
+    });
 
-  //   // Set default animation
-  //   this.anims.play('position1');
-  // }
+    // Play animation on space key press
+    this.scene.input.keyboard.on("keydown-SPACE", () => {
+      sprite.play("jump", true);
+    });
+  }
 }
 
 export default Tamagotchi;
